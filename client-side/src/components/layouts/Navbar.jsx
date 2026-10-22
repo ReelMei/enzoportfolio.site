@@ -72,7 +72,7 @@ const Navbar = () => {
 
              {/* MOBILE BUTT0N RESPONSIVENESS */}
 
-             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='' aria-label='menu' aria-expanded={isMenuOpen}>
+             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='md:hidden' aria-label='menu' aria-expanded={isMenuOpen}>
 
               {isMenuOpen ? <MdOutlineClose  className='w-6 h-6 border-none'/> : <GiHamburgerMenu className='w-4 h-6'/>}
 
@@ -83,7 +83,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
 
-      <div className={`md:hidden transition-all duration-300 overflow-hidden  ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+      <div className={`md:hidden transition-all duration-300 overflow-hidden  ${isMenuOpen ? 'max-h-150 opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className='bg-black/95 backdrop-blur-lg border-t border-primary/90 px-5 py-6 space-y-3 mt-4'>
           {NAV_LINKS.map((link) => (
             <button key={link.id} onClick={() => handleNavClick(link.id)} className={`block w-full text-left px-4 py-3 rounded-lg  font-bold

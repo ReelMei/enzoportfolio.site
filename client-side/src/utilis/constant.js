@@ -1,6 +1,6 @@
 export const PERSONAL_INFO = {
     name: 'Real Enzo',
-    title: 'Full-Stack Web Dev, Software Engineer, Ui/UX Enthusiast, MObile Dev',
+    title: 'Full-Stack Web Dev, Software Engineer, Ui/UX Enthusiast, Mobile Dev',
     email: 'reelmein6@gmail.com',
     location: 'Around the world',
     resume: './resume.pdf',
