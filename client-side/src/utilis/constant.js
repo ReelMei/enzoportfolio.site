@@ -6,7 +6,8 @@ export const PERSONAL_INFO = {
     resume: './resume.pdf',
     bio: [
         "I am an Passionate and Dedicated Software Engineer with years of expertise and experience. I've Collaborate and work on several projects for promoting tech for good. "
-    ]
+    ],
+    
 };
 
 export const SOCIAL_LINKS = {

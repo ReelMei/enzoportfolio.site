@@ -3,7 +3,10 @@ import { PERSONAL_INFO, STATS } from '../../utilis/constant'
 import { scrollToSection } from '../../hooks/useScrollSpy'
 import FadeIn from '../animation/FadeIn'
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground'
-import { FaStar } from "react-icons/fa6";
+import { FaStar, FaGolang } from "react-icons/fa6";
+import { SiReact, SiPostgresql, SiMongodb, SiPython } from "react-icons/si";
+import { RiNextjsFill , RiNodejsLine, RiTailwindCssFill  } from "react-icons/ri";
+import Profile from '../../assets/skills/profile.png'
 
 const Hero = () => {
   return (
@@ -48,7 +51,7 @@ const Hero = () => {
             <FadeIn delay={400}> 
               <div className='grid grid-cols-2 md:grid-cols-4 gap-10 max-w-full'>
                 {STATS.map((stat, index) => (
-                  <div key={index} className='text-left border-r border-primary/40 pr-10 last:border-r-0'>
+                  <div key={index} className='text-left border-r border-primary/40 pr-10 last:border-r-0 '>
                    <div className='text-2xl font-medium text-primary mb-2 font-mono '>
                     {stat.value}
                    </div>
@@ -62,11 +65,77 @@ const Hero = () => {
 
           </div>
 
+             {/* Right */}
+      
+      <FadeIn delay={200}>
+        <div className='relative'>
+          <div className='relative overflow-hidden rounded-2xl aspect-4/5 max-w-125 ml-auto group'>
+            <div className='absolute inset-0 rounded-2xl overflow-hidden'>
+              <div className='absolute inset-0.5 bg-linear-to-r from-primary/20 via-primary/10 to-primary animate-spin-slow rounded-2xl'></div>
+            </div>
 
-        
+             {/* Image */}
+
+             <div className='relative rounded-2xl overflow-hidden m-px h-[calc(100%-2px)]'>
+              <img src={Profile} alt="developer at work" className='w-full h-full object-cover'/>
+             </div>
+
+              {/* Technologies Logo */}
+              <div className='absolute bottom-6 left-6 z-20'>
+                <FadeIn delay={500}>
+                  <div className='flex items-center gap-4 bg-black/40 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3'>
+                    <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                      <SiReact className='w-full h-full text-primary'/>
+                    </div>
+
+                    <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                      <RiNextjsFill className='w-full h-full text-primary'/>
+                    </div>
+
+
+                    <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                      <RiNodejsLine className='w-full h-full text-primary'/>
+                    </div>
+
+
+                    <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                      <RiTailwindCssFill className='w-full h-full text-primary'/>
+                    </div>
+
+
+                     <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                     <SiPostgresql className='w-full h-full text-primary'/>
+                    </div>
+
+
+                     <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                    <SiMongodb className='w-full h-full text-primary'/>
+                    </div>
+
+
+                     <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                     <SiPython className = 'w-full h-full text-primary'/>
+                    </div>
+
+
+                     <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                     <FaGolang className = 'w-full h-full text-primary'/>
+                    </div>
+                    
+
+                  </div>
+
+                </FadeIn>
+              </div>
+
+
+          </div>
+        </div>
+      </FadeIn>
 
       </div>
 
+      
       </div>
 
     </div>
