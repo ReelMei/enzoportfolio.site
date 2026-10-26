@@ -138,7 +138,7 @@ const Hero = () => {
       
       </div>
 
-      <button onClick={() => scrollToSection('about')} className='absolute bottom-35 left-1/2 -translate-x-1/2 animate-bounce'>
+      <button onClick={() => scrollToSection('about')} className='absolute bottom-3 left-1/2 -translate-x-1/2 animate-bounce'>
         <FaArrowDown className='w-8 h-8 text-primary'/>
       </button>
 
