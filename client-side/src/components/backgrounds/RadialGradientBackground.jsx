@@ -67,7 +67,21 @@ const RadialGradientBackground = ({ variant = "hero", gradients = [] }) => {
     return `radial-gradient(circle at center, transparent 0%, transparent 30%, ${colorStops}, transparent 60%, transparent 100%)`
   };
 
-  return <div></div>;
+  return (
+    <div className="">
+      {activeGradients.map((gradient, index) => (
+        <div 
+        key={index} 
+        className={`absolute ${gradient.position} ${gradient.size} rounded-full `} 
+        style={{
+          background: generateGradients(gradient.colors),
+          filter: 'blur'
+        }}>
+
+        </div>
+      ))}
+    </div>
+  )
 };
 
 export default RadialGradientBackground;

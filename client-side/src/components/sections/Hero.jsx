@@ -11,7 +11,7 @@ import Profile from '../../assets/skills/profile.png'
 const Hero = () => {
   return (
     <div className='relative min-h-screen flex items-center overflow-hidden bg-black '>
-      <RadialGradientBackground variant='hero' />
+      {/* <RadialGradientBackground variant='hero' /> */}
 
       {/* Content Container */}
 
