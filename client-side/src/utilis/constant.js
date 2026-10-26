@@ -13,6 +13,7 @@ export const PERSONAL_INFO = {
 export const SOCIAL_LINKS = {
     github: 'https://github.com/ReelMei',
     twiiter: '',
+    linkedIn: 'www.linkedin.com/in/ibrahim-babatunde-364566348',
 
 }
 

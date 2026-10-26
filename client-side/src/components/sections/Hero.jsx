@@ -3,7 +3,7 @@ import { PERSONAL_INFO, STATS } from '../../utilis/constant'
 import { scrollToSection } from '../../hooks/useScrollSpy'
 import FadeIn from '../animation/FadeIn'
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground'
-import { FaStar, FaGolang } from "react-icons/fa6";
+import { FaStar, FaGolang, FaArrowDown } from "react-icons/fa6";
 import { SiReact, SiPostgresql, SiMongodb, SiPython } from "react-icons/si";
 import { RiNextjsFill , RiNodejsLine, RiTailwindCssFill  } from "react-icons/ri";
 import Profile from '../../assets/skills/profile.png'
@@ -83,42 +83,42 @@ const Hero = () => {
               {/* Technologies Logo */}
               <div className='absolute bottom-6 left-6 z-20'>
                 <FadeIn delay={500}>
-                  <div className='flex items-center gap-4 bg-black/40 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3'>
-                    <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                 <div className='flex items-center justify-center gap-2 sm:gap-4 bg-black/40 backdrop-blur-sm border border-white/10 rounded-full px-3 sm:px-6 py-3 max-w-full'>
+                  <div className='w-5 h-5 sm:w-6 sm:h-6 shrink-0 flex items-center justify-center transition-transform duration-200'>
                       <SiReact className='w-full h-full text-primary'/>
                     </div>
 
-                    <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                   <div className='w-5 h-5 sm:w-6 sm:h-6 shrink-0 flex items-center justify-center transition-transform duration-200'>
                       <RiNextjsFill className='w-full h-full text-primary'/>
                     </div>
 
 
-                    <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                   <div className='w-5 h-5 sm:w-6 sm:h-6 shrink-0 flex items-center justify-center transition-transform duration-200'>
                       <RiNodejsLine className='w-full h-full text-primary'/>
                     </div>
 
 
-                    <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                    <div className='w-5 h-5 sm:w-6 sm:h-6 shrink-0 flex items-center justify-center transition-transform duration-200'>
                       <RiTailwindCssFill className='w-full h-full text-primary'/>
                     </div>
 
 
-                     <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                    <div className='w-5 h-5 sm:w-6 sm:h-6 shrink-0 flex items-center justify-center transition-transform duration-200'>
                      <SiPostgresql className='w-full h-full text-primary'/>
                     </div>
 
 
-                     <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                    <div className='w-5 h-5 sm:w-6 sm:h-6 shrink-0 flex items-center justify-center transition-transform duration-200'>
                     <SiMongodb className='w-full h-full text-primary'/>
                     </div>
 
 
-                     <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                    <div className='w-5 h-5 sm:w-6 sm:h-6 shrink-0 flex items-center justify-center transition-transform duration-200'>
                      <SiPython className = 'w-full h-full text-primary'/>
                     </div>
 
 
-                     <div className='w-6 h-6 items-center justify-center transition-transform duration-200'>
+                    <div className='w-5 h-5 sm:w-6 sm:h-6 shrink-0 flex items-center justify-center transition-transform duration-200'>
                      <FaGolang className = 'w-full h-full text-primary'/>
                     </div>
                     
@@ -137,6 +137,10 @@ const Hero = () => {
 
       
       </div>
+
+      <button onClick={() => scrollToSection('about')} className='absolute bottom-35 left-1/2 -translate-x-1/2 animate-bounce'>
+        <FaArrowDown className='w-8 h-8 text-primary'/>
+      </button>
 
     </div>
   )
