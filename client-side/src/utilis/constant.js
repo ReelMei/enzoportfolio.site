@@ -1,9 +1,11 @@
+import resume from '../assets/resume.pdf'
+
 export const PERSONAL_INFO = {
     name: 'Real Enzo',
     title: 'Full-Stack Web Dev, Software Engineer, Ui/UX Enthusiast, Mobile Dev',
     email: 'reelmein6@gmail.com',
     location: 'Around the world',
-    resume: '../assets/resume.pdf',
+    resume: resume,
     bio: [
         "I am an Passionate and Dedicated Software Engineer with years of expertise and experience. I've Collaborate and work on several projects for promoting tech for good. A meticulous and innovative software engineer with a passion for developing clean, efficient, and scalable web applications. Skilled in bridging the gap between design and functionality, ensuring seamless user experiences through proficient front-end development techniques and collaborative teamwork. Eager to contribute strong problem-solving abilities and a solid understanding of both front-end technologies and full-stack principles. Committed to continual learning and applying modern development practices to deliver high-quality software solutions that meet evolving user and business needs. Dedicated full-stack developer adept at translating complex requirements into intuitive digital experiences. Demonstrates a keen ability to integrate collaborative feedback and uphold best practices within fast-paced development environments. Passionate about leveraging technical skills to build accessible, reliable, and user-centric web applications."
     ],
