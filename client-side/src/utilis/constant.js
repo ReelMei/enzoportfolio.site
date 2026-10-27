@@ -26,7 +26,7 @@ export const STATS = [
 
 export const ABOUT_STATS = [
     {label: 'Clients Happiness', value: '70+'},
-    {label: 'Code Commited', value: '5+'},
+    {label: 'Code Commited', value: '805+'},
     {label: 'Github Badge', value: '3'},
 ];
 
