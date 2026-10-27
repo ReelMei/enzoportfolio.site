@@ -99,6 +99,111 @@ const About = () => {
               </button>
             </FadeIn>
           </div>
+
+          {/* Right  */}
+          <FadeIn delay={200}>
+
+            <div className='grid grid-cols-2 gap-4'>
+
+              <div className='col-span-2 relative group'>
+
+                <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group transition-opacity duration-300'></div>
+
+                <div className='relative bg-white/5 border border-white/10 rounded-2xl p-6 transition-all duration-300'>
+
+                  <div className='flex items-start gap-4'>
+
+                    <div className='p-3 bg-primary/10 rounded-xl'>
+
+                      <FaCode className='w-6 h-6 text-primary'/>
+                    </div>
+
+                    <div className='flex-1'>
+
+                      <h3 className='text-lg font-semibold text-white mb-2'>Expertise</h3>
+
+                      <p className='text-sm leading-relaxed text-white/70'> Specialized in Building scalable web aplicationwith modern technologies and best practices </p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div className='relative group'>
+
+                <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group transition-opacity duration-300'></div>
+                <div className='relative bg-white/5 border border-white/10 rounded-2xl p-6 transition-all duration-300 '>
+
+                  <div className='p-3 bg-primary/10 rounded-xl w-fit mb-4'>
+                    <IoSparkles className='w-6 h-6 text-primary'/>
+                  </div>
+
+                  <h3 className='text-base font-semibold mb-2 text-white'> Clean and Readable Code.. </h3>
+                  <p className='text-sm text-white/70 leading-relaxed'> Writing maintainable, well-documented code that scale </p>
+
+                </div>
+
+              </div>
+
+              <div className='relative group'>
+
+                <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group transition-opacity duration-300'></div>
+
+                <div className='relative bg-white/5 border border-white/10 rounded-2xl p-6 transition-all duration-300 '>
+
+                  <div className='p-3 bg-primary/10 rounded-xl w-fit mb-4'>
+
+                    <FaDownload className='w-6 h-6 text-primary' />
+                  </div>
+
+                  <h3 className='text-base font-semibold mb-2 text-white'>Performance</h3>
+                  <p className='text-sm text-white/70 leading-relaxed'> Optimizing for speed and efficiency in every project. </p>
+
+                </div>
+
+              </div>
+
+              <div className='col-span-2 relative group'>
+
+                <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group transition-opacity duration-300'></div>
+
+                <div className='relative bg-white/5 border-white/10 rounded-2xl p-6'>
+
+                  <div className='grid grid-cols-3 gap-6 text-center'>
+
+                    <div className=''>
+
+                      <div className='text-2xl font-bold text-primary mb-1'> 100%</div>
+                      <div className='text-xs text-white/60'> Client Satisfaction</div>
+
+                    </div>
+
+                    <div className=''>
+                    <div className='text-2xl font-bold text-primary mb-1'> 24/7 </div>
+                    <div className='text-xs text-white/60'> Support Available</div>
+                  </div>
+
+                  <div className=''>
+
+                    <div className='text-2xl font-bold text-primary mb-1'> Fast </div>
+                    <div className='text-xs text-white/60'> Delivery Time</div>
+
+                  </div>
+
+                  </div>
+
+                  
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </FadeIn>
+
         </div>
       </div>
     </div>
