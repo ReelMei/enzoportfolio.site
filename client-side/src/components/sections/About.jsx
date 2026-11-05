@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoSparkles } from "react-icons/io5";
-import { FaCode, FaDownload, FaGolang } from 'react-icons/fa6'
+import { FaCode, FaDownload, FaGolang, FaFigma, FaGitAlt, FaGithub } from 'react-icons/fa6'
 import { SiDjango, SiJavascript, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground'
 import FadeIn from '../animation/FadeIn'
@@ -22,6 +22,10 @@ const About = () => {
     {name: 'Django', icon: SiDjango, color: '#61DAFB'},
     {name: 'Golang', icon: FaGolang, color: '#61DAFB'},
     {name: 'Javascript', icon: SiJavascript, color: '#61DAFB'},
+    {name: 'Figma', icon: FaFigma, color: '#61DAFB'},
+    {name: 'Git', icon: FaGitAlt, color: '#61DAFB'},
+     {name: 'Github', icon: FaGithub, color: '#61DAFB'},
+
   ]
 
   return (
@@ -205,6 +209,36 @@ const About = () => {
           </FadeIn>
 
         </div>
+
+        {/* Skills Grid Section */}
+
+        <FadeIn delay={500}>
+          <div className='flex flex-col items-center gap-8'>
+            <div className='text-center'>
+              <h3 className='text-2xl font-normal text-white mb-2'> Tech Stack & Expertise </h3>
+              <p className='text-sm text-white/60'> Technologies I work with to build Amazing, Responsive and Scalable Products </p>
+            </div>
+
+            <div className='grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 w-full max-w-4xl'>
+              {skills.map((skill, index) => (
+                <div className='group relative bg-white/5 hover:bg-white/10 border border-amber-700/10 hover:border-primary/20 rounded-2xl p-6 flex flex-col items-center justify-center gap-3 transition-all duration-300' key={index}>
+                  <skill.icon className='text-3xl text-primary' />
+                  <div className='text-sm text-white/80 font-medium text-center'>
+                    {skill.name}
+                  </div>
+
+                  {/* Mover Glide Effect */}
+                  <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/0 group-hover:from-primary/10 group-hover:to-primary/10 rounded-2xl transition-all duration-300'>
+
+                  </div>
+
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </FadeIn>
+
       </div>
     </div>
   );
