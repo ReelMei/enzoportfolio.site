@@ -10,6 +10,8 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiResponsive } from "react-icons/di";
+import { SiShadcnui } from "react-icons/si";
+import { SiReactquery } from "react-icons/si";
 
 
 
@@ -104,6 +106,20 @@ export const skills = [
         icon: DiResponsive,
         expereince: '4+ year',
         level: 'Expert',
+    },
+     {
+        id: 14,
+        name: 'Shadcn UI',
+        icon: SiShadcnui,
+        expereince: '3+ year',
+        level: 'Expert',
+    },
+    {
+        id: 15,
+        name: 'React Query',
+        icon: SiReactquery,
+        expereince: '2+ year',
+        level: 'Intermediate',
     },
 
 

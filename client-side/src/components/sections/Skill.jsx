@@ -12,12 +12,16 @@ const Skill = () => {
       skills.find(s => s.name === 'Next.js'),
       skills.find(s => s.name === 'Typescript'),
       skills.find(s => s.name === 'Tailwind CSS'),
+      skills.find(s => s.name === 'Shadcn UI'),
+      skills.find(s => s.name === 'React Query'),
     ].filter(Boolean),
 
     'Backend Development': [
       skills.find(s => s.name === 'MongoDB'),
       skills.find(s => s.name === 'PostgreeSql'),
       skills.find(s => s.name === 'Node.js'),
+      skills.find(s => s.name === 'Golang'),
+      skills.find(s => s.name === 'Python'),
     ].filter(Boolean),
 
     'Other Tools': [
