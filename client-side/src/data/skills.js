@@ -9,6 +9,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
+import { DiResponsive } from "react-icons/di";
 
 
 
@@ -31,8 +32,8 @@ export const skills = [
         id: 3,
         name: 'Typescript',
         icon: SiTypescript,
-        experience: '4+ years',
-        level: 'expert',
+        experience: '2+ years',
+        level: 'Intermediate',
     },
     {
         id: 4,
@@ -96,6 +97,13 @@ export const skills = [
         icon: FaFigma,
         expereince: '3+ year',
         level: 'Intermediate',
+    },
+     {
+        id: 13,
+        name: 'Responsive Design',
+        icon: DiResponsive,
+        expereince: '4+ year',
+        level: 'Expert',
     },
 
 
