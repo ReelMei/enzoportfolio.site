@@ -67,7 +67,7 @@ const Skill = () => {
   };
 
   return (
-    <div id='skill' className='relative py-20 bg-black overflow-hidden'>
+    <div id='skills' className='relative py-20 bg-black overflow-hidden'>
 
       {/* Animated Background */}
       <div className='absolute inset-0 overflow-hidden'>
