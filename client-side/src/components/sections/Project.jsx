@@ -12,7 +12,7 @@ const projects = [
     year: '2026',
     description:
       'A video conferencing web app designed for remote collaboration, secure calls, and easy access across devices.',
-    stack: ['PERN', 'WebRTC', 'PostgreSQL', 'Tailwind'],
+    stack: ['PERN', 'Node.js', 'PostgreSQL', 'Tailwind', 'API'],
     accent: 'from-primary/80 via-amber-500/40 to-transparent',
     liveUrl: 'https://callive.tech',
     githubUrl: 'https://github.com/ReelMei/Cally',
@@ -37,7 +37,7 @@ const projects = [
     status: 'Soon Live',
     year: '2026',
     description:
-      'A video conferencing web app designed for remote collaboration, secure calls, and easy access across devices.',
+      'An E-commerce platform for buying and selling products online.',
     stack: ['PERN', 'WebRTC', 'PostgreSQL', 'Tailwind'],
     accent: 'from-olive-500/80 via-olive-500/40 to-transparent',
     // liveUrl: 'https://callive.tech',
@@ -65,7 +65,7 @@ const projects = [
     description:
       'A frontend crypto dashboard for tracking live coin prices, market trends, and price movement in a clean dashboard layout.',
     stack: ['React', 'Tailwind CSS', 'API', 'Charts'],
-    accent: 'from-sky-500/80 via-cyan-400/30 to-transparent',
+    accent: 'from-pink-500/80 via-pink-400/30 to-transparent',
     liveUrl: 'https://enzocrypto.netlify.app/',
     githubUrl: 'https://github.com/ReelMei/Enzo-crypto',
   },
@@ -91,7 +91,7 @@ const projects = [
     description:
       'A Frontend Showcasing the landing page of a school project, EnzoCity, which is a web application that allows users to explore and discover various features of a University.',
     stack: ['React', 'Tailwind CSS'],
-    accent: 'from-sky-500/80 via-cyan-400/30 to-transparent',
+    accent: 'from-white via-white/30 to-transparent',
     liveUrl: 'https://enzocity.netlify.app/',
     githubUrl: 'https://github.com/ReelMei/Team-colab',
   },
@@ -117,7 +117,7 @@ const projects = [
     description:
       'The backend for the Callive application.',
     stack: ['Node.js', 'Express.js', 'CLERK', 'POSTGRESQL'],
-    accent: 'from-green-500/80 via-cyan-400/30 to-transparent',
+    accent: 'from-taupe-500/80 via-taupe-400/30 to-transparent',
     liveUrl: 'https://callive-backend.onrender.com',
     githubUrl: 'https://github.com/ReelMei/Cally/tree/main/server'
   },
