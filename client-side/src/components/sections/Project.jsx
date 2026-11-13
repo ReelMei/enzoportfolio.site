@@ -121,6 +121,19 @@ const projects = [
     liveUrl: 'https://callive-backend.onrender.com',
     githubUrl: 'https://github.com/ReelMei/Cally/tree/main/server'
   },
+  {
+    id: 10,
+    title: 'legitanit',
+    category: 'Frontend',
+    status: 'Live',
+    year: '2025',
+    description:
+      'A Frontend app for the landing page of a professional video editor showcasing their work.',
+    stack: ['Node.js', 'Express.js', 'CLERK', 'POSTGRESQL'],
+    accent: 'from-mist-500 via-mist-400/30 to-transparent',
+    liveUrl: 'https://legitanit.vercel.app/',
+    githubUrl: 'https://github.com/ReelMei/legitanit'
+  },
 ]
 
 const categories = ['All', 'Web App', 'Frontend', 'Backend']
@@ -142,7 +155,7 @@ const Project = () => {
           <div className='text-center mb-12'>
             <div className='inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 mb-6'>
               <FiFolder className='w-4 h-4 text-primary' />
-              <span className='text-sm font-medium text-primary'>Selected Work</span>
+              <span className='text-sm font-medium text-primary'>My Work</span>
             </div>
 
             <h2 className='text-4xl lg:text-5xl font-normal text-white mb-4'>Featured Projects</h2>
